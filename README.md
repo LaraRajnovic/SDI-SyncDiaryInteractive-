@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quasar App (sdi)
 
 ## Install the dependencies
@@ -36,3 +37,7 @@ quasar build
 ### Customize the configuration
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-file).
+=======
+# SDI-SyncDiaryInteractive-
+SyncDiaryInteractive (SDI) je aplikacija koja omogućuje planiranje i praćenje dnevnih aktivnosti, pametno upravljanje vremenom, analizu produktivnosti te AI asistenciju radi postizanja boljeg balansa između poslovnog i privatnog života.
+>>>>>>> fe0d3fc563126b71f86d1079a8c2c398d6737933
