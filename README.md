@@ -1,43 +1,8 @@
-<<<<<<< HEAD
-# Quasar App (sdi)
-
-## Install the dependencies
-
-```bash
-pnpm install
-# or: yarn/npm/bun install
-```
-
-### Start the app in development mode (HMR, error reporting, etc.)
-
-```bash
-quasar dev
-```
-
-### Format & Lint the files
-
-```bash
-pnpm run lint
-# or: yarn/npm/bun run lint
-```
-
-...or just check formatting & linting:
-
-```bash
-pnpm run lint:check
-# or: yarn/npm/bun run lint:check
-```
-
-### Build the app for production
-
-```bash
-quasar build
-```
-
-### Customize the configuration
-
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-file).
-=======
 # SDI-SyncDiaryInteractive-
 SyncDiaryInteractive (SDI) je aplikacija koja omogućuje planiranje i praćenje dnevnih aktivnosti, pametno upravljanje vremenom, analizu produktivnosti te AI asistenciju radi postizanja boljeg balansa između poslovnog i privatnog života.
->>>>>>> fe0d3fc563126b71f86d1079a8c2c398d6737933
+
+# članovi
+
+Lara Rajnović
+Anamaria Tadić
+David Bosiljevac
