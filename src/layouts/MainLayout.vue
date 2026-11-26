@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> SyncDiaryInteractive </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -41,47 +41,40 @@ import EssentialLink from '@/components/EssentialLink.vue'
 
 const linksList = [
   {
-    label: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    label: 'Početna stranica',
+    icon: 'home',
+    link: ''
   },
   {
-    label: 'GitHub',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    label: 'Aktivnost',
+    caption: '(Kalendar)',
+    icon: 'history',
+    link: '/aktivnost/'
   },
   {
-    label: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    label: 'Događaj',
+    caption: 'Unos aktivnosti koja se dogodila',
+    icon: 'event',
+    link: '/dogadjaj/'
   },
   {
-    label: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    label: 'Poruka',
+    caption: 'Moje poruke',
+    icon: 'message',
+    link: '/poruka/'
   },
   {
-    label: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    label: 'Timovi',
+    caption: 'Upravljanje timovima',
+    icon: 'groups',
+    link: '/timovi/'
   },
   {
-    label: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    label: 'Korisnik',
+    caption: 'O meni',
+    icon: 'person',
+    link: '/korisnik/'
   },
-  {
-    label: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
 
 const leftDrawerOpen = ref(false)
