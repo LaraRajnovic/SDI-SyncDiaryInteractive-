@@ -3,8 +3,12 @@ const routes = [
     path: '/',
     component: () => import('@/layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('@/pages/IndexPage.vue') },
-      { path: 'second', component: () => import('@/pages/SecondPage.vue') }
+      { path: '', component: () => import('@/pages/HomePage.vue') },
+      { path: 'korisnik', component: () => import('@/pages/KorisnikPage.vue') },
+      { path: 'aktivnost', component: () => import('@/pages/AktivnostPage.vue') },
+      { path: 'dogadjaj', component: () => import('@/pages/DogadjajPage.vue') },
+      { path: 'poruka', component: () => import('@/pages/PorukaPage.vue') },
+      { path: 'timovi', component: () => import('@/pages/TimoviPage.vue') },
     ]
   },
 

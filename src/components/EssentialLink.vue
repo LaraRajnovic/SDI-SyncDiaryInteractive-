@@ -1,5 +1,6 @@
 <template>
-  <q-item clickable tag="a" target="_blank" :href="props.link">
+  <!--Da se kartice otvaraju u novom prozoru: target = "_blank"-->
+  <q-item clickable target="_self" :to="props.link">
     <q-item-section v-if="props.icon" avatar>
       <q-icon :name="props.icon" />
     </q-item-section>
@@ -14,7 +15,7 @@
 <script setup>
 const props = defineProps({
   label: {
-    type: String,
+    type: String, //daa da
     required: true
   },
 
